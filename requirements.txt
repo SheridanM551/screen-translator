@@ -1,0 +1,8 @@
+numpy
+mss>=10
+PySide6-Essentials>=6.7
+opencc>=1.1
+pillow  # tools/ only (sample images, offscreen render tests)
+# optional non-LLM engine ("engine": "nmt"); models are built by tools/convert_nmt.py
+ctranslate2==4.9.0
+sentencepiece
